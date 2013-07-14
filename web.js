@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-fs.readFileSync('./index.html', function (err, html) {
+fs.readFileSync('./bitstarter/index.html', function (err, html) {
 	if (err) {
 		throw err;
 	}
